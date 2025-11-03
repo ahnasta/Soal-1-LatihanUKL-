@@ -1,14 +1,4 @@
-## Soal (1)
-
-Sebuah perusahaan ekspedisi ternama mengirimkan paket-paket ke berbagai daerah. Biaya pengiriman tergantung pada berat paket, jarak tempuh serta volume barang.
-Berikut adalah detail biaya pengiriman per kilogram:
-    Jarak kurang dari atau sama dengan 10 km: Rp 4250 per kg
-    Jarak lebih dari 10 km: Rp 6000 per kg
-    Volume paket akan dikenakan biaya Rp 50.000,- ketika volume melebihi 100 cm^3. 
-Buatlah sebuah program dalam bahasa Java untuk menghitung biaya total pengiriman berdasarkan berat paket jarak tempuh serta volume barang yang diketahui dengan menginputkan panjang, lebar serta tinggi dari paket.
-
-
-## Program : Menentukan Ongkir Produk Berdasarkan Berat, Volume, dan Jarak Tempuh
+## Program (1) : Menentukan Ongkir Produk Berdasarkan Berat, Volume, dan Jarak Tempuh
 
 ## 📖 Deskripsi
 Program ini dimanfaatkan untuk memperhitungkan **biaya ongkir paket** ke konsumen sesuai dengan ketentuan yang telah tercantum.
@@ -30,44 +20,12 @@ Pengguna diharapkan mengisi format yang telah ditampilkan oleh program sesuai de
 5. Total biaya dihitung dengan rumus:
     **total = (berat * biayaPerKg) + biayaTambahan**
 
-## 💻 Cuplikan Kode
-``java
-
-double volume = panjang * lebar * tinggi;
-        double biayaPerKg = (jarak <= 10) ? 4250 : 6000;
-        double total = berat * biayaPerKg;
-     if (volume > 100) {
-        total += 50000;
-    }
-
-
 ## Contoh Input Output Program
 
-**Input** 
-Masukkan panjang paket (cm): 10
-Masukkan lebar paket (cm): 5
-Masukkan tinggi paket (cm): 4
-Masukkan berat paket (kg): 2
-Masukkan jarak pengiriman (km): 8
-
-**Output**
-             ===== Perhitungan Ongkir Paket =====    
-Volume paket: 200.0 cm³
-Biaya per kg: Rp 4250.0
-Biaya dasar: Rp 8500.0
-Biaya tambahan volume: Rp 50000.0
-----------------------------------
-Total biaya pengiriman: Rp 58500.0
+<img width="1695" height="321" alt="ongkir" src="https://github.com/user-attachments/assets/85b99469-1f21-4ff6-b5fd-88681a2c2ec0" />
 
 
-
-
-## Soal (2)
-
-Buatlah sebuah program dalam bahasa Java untuk menentukan apakah suatu bilangan yang dimasukkan pengguna adalah bilangan ganjil atau genap
-
-
-# 🔢 Program Menentukan Bilangan Ganjil atau Genap
+# 🔢 Program (2) : Menentukan Bilangan Ganjil atau Genap
 
 ## 📖 Deskripsi
 Program ini bekerja dalam menentukan apakah sebuah **bilangan yang dimasukkan oleh pengguna** termasuk **bilangan ganjil** atau **bilangan genap** dengan menggunakan **konsep operator modulus (%)** untuk memeriksa sisa hasil pembagian bilangan dengan angka 2
@@ -85,29 +43,7 @@ Program ini bekerja dalam menentukan apakah sebuah **bilangan yang dimasukkan ol
 4. Jika sisa != 0, maka bilangan adalah **ganjil**.  
 5. Program menampilkan hasil sesuai kondisi
 
-## 💻 Cuplikan Kode
-``java
-        
-if (angka % 2 == 0) {
-    System.out.println(angka + " adalah bilangan genap");
-} else {
-    System.out.println(angka + " adalah bilangan ganjil");
-  }
- }
-}
-
 ## Contoh Input Output Program
 
-**Input**
-Masukkan angka:
-2
+<img width="1706" height="301" alt="ganjil genap" src="https://github.com/user-attachments/assets/3877787a-5f8b-46b5-a209-90e9060409c0" />
 
-**Output**
-2 adalah bilangan genap
-
-**Input**
-Masukkan angka:
-3
-
-**Output**
-3 adalah bilangan ganjil
